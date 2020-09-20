@@ -85,6 +85,7 @@ int main(int argc, char *argv[]) {
         ERROR_LOG("Classification Init resource failed\n");
         return FAILED;
     }
+    INFO_LOG("HandPose processor initialized\n");
 
     Camera  cameraDevice(channelId);
     if(false == cameraDevice.IsOpened(channelId))
@@ -93,9 +94,8 @@ int main(int argc, char *argv[]) {
             ERROR_LOG("Failed to open channelId =%d.\n", channelId);
             return FAILED;
         }
-    } else {
-        INFO_LOG("camera channel opened successfully\n");
     }
+    INFO_LOG("camera channel opened successfully\n");
 
     void * buffer = nullptr;
     int size = cameraDevice.GetCameraDataSize(channelId);
