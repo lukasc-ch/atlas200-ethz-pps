@@ -3,6 +3,8 @@ app_script_path="$( cd "$(dirname ${BASH_SOURCE})" ; pwd -P )"
 app_path=$app_script_path/../
 app_name="hand_pose"
 
+python_bin=python3.6
+
 # ************************convert CIDR to netmask****************************************
 # Description:  convert CIDR to netmask
 # $1: CIDR
@@ -53,9 +55,9 @@ function check_board_ip()
     fi 
 }
 
-function check_python3.7_lib()
+function check_python_lib()
 {
-    echo "Check python3.7 libs ......"
+    echo "Check python libs ......"
 
     tornado_obj=$(cat ${app_path}/presenterserver/requirements | grep tornado | awk -F'[ =]+' '{print $2}')
     if [ $? -ne 0 ];then
@@ -78,54 +80,54 @@ function check_python3.7_lib()
         return 1
     fi
     
-    if tornado=$(python3.7 -c "import tornado;print(tornado.version)" 2>/dev/null);then
+    if tornado=$(${python_bin} -c "import tornado;print(tornado.version)" 2>/dev/null);then
 		if [ ${tornado} != ${tornado_obj} ];then
-	    	python3.7 -m pip install tornado==${tornado_obj} 2>/dev/null
+	    	${python_bin} -m pip install tornado==${tornado_obj} 2>/dev/null
      		if [ $? -ne 0 ];then
         		echo "ERROR: install tornado failed, please check your env."
         		return 1
         	fi
 		fi
     else
-		python3.7 -m pip install tornado==${tornado_obj} 2>/dev/null
+		${python_bin} -m pip install tornado==${tornado_obj} 2>/dev/null
 		if [ $? -ne 0 ];then
 	    	echo "ERROR: install tornado failed, please check your env."
             return 1
         fi
     fi 
 
-    if protobuf=$(python3.7 -c "import google.protobuf;print(google.protobuf.__version__)" 2>/dev/null);then
+    if protobuf=$(${python_bin} -c "import google.protobuf;print(google.protobuf.__version__)" 2>/dev/null);then
 		if [ ${protobuf} != ${protobuf_obj} ];then
-	    	python3.7 -m pip install protobuf==${protobuf_obj} 2>/dev/null
+	    	${python_bin} -m pip install protobuf==${protobuf_obj} 2>/dev/null
      	    if [ $? -ne 0 ];then
         		echo "ERROR: install protobuf failed, please check your env."
         		return 1
             fi
 		fi
     else
-		python3.7 -m pip install protobuf==${protobuf_obj} 2>/dev/null
+		${python_bin} -m pip install protobuf==${protobuf_obj} 2>/dev/null
 		if [ $? -ne 0 ];then
 	    	echo "ERROR: install protobuf failed, please check your env."
             return 1
         fi
     fi 
     
-    if numpy=$(python3.7 -c "import numpy;print(numpy.__version__)" 2>/dev/null);then
+    if numpy=$(${python_bin} -c "import numpy;print(numpy.__version__)" 2>/dev/null);then
 		if [ ${numpy} != ${numpy_obj} ];then
-	    	python3.7 -m pip install numpy==${numpy_obj} 2>/dev/null
+	    	${python_bin} -m pip install numpy==${numpy_obj} 2>/dev/null
      	    if [ $? -ne 0 ];then
         		echo "ERROR: install numpy failed, please check your env."
         		return 1
             fi
 		fi
     else
-		python3.7 -m pip install numpy==${numpy_obj} 2>/dev/null
+		${python_bin} -m pip install numpy==${numpy_obj} 2>/dev/null
 		if [ $? -ne 0 ];then
 	    	echo "ERROR: install numpy failed, please check your env."
             return 1
         fi
     fi
-    echo "python3.7 libs have benn prepared."
+    echo "${python_bin} libs have benn prepared."
 }
 
 function parse_presenter_view_ip()
@@ -234,7 +236,7 @@ function main()
         kill -9 ${stop_pid}
     fi
 
-    check_python3.7_lib
+    check_python_lib
     if [ $? -ne 0 ];then
 		return 1
     fi
@@ -258,7 +260,7 @@ function main()
     
     echo "Finish to prepare ${app_name} presenter server ip configuration."
     
-    python3.7 ${app_path}/presenterserver/presenter_server.py --app ${app_name} &
+    ${python_bin} ${app_path}/presenterserver/presenter_server.py --app ${app_name} &
 
     return 0
 }
