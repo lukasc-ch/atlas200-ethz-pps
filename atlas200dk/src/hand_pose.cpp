@@ -125,12 +125,14 @@ Result HandPose::InitModel(const char* omModelPath) {
         ERROR_LOG("Create mode input dataset failed");
         return FAILED;
     }
+    INFO_LOG("HandPose::InitModel completed\n");
+
     return SUCCESS;
 }
 
 Result HandPose::Init() {
     if (isInited_) {
-        INFO_LOG("Classify instance is initied already!\n");
+        INFO_LOG("Classify instance is initialized already!\n");
         return SUCCESS;
     }
 

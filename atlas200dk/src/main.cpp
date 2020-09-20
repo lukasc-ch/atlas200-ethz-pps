@@ -122,7 +122,7 @@ int main(int argc, char *argv[]) {
             ERROR_LOG("Preprocess image %d failed, continue to read next\n",  channelId);
             return FAILED;
         } else {
-            ERROR_LOG("frame preproc completed\n");
+            INFO_LOG("frame preproc completed\n");
         }
 
         // Inference
@@ -131,7 +131,7 @@ int main(int argc, char *argv[]) {
             ERROR_LOG("Inference model inference output data failed\n");
             return FAILED;
         } else {
-            ERROR_LOG("frame inference completed\n");
+            INFO_LOG("frame inference completed\n");
         }
 
         // Postprocess
@@ -140,7 +140,7 @@ int main(int argc, char *argv[]) {
             ERROR_LOG("Process model inference output data failed\n");
             return FAILED;
         } else {
-            ERROR_LOG("frame prostproc completed\n");
+            INFO_LOG("frame prostproc completed\n");
         }
     }
 
