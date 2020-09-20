@@ -38,6 +38,8 @@ endif()
 # Header path
 include_directories(
     ../inc/
+    ../presenteragent/include/
+    ../presenteragent/include/ascenddk/
     $ENV{HOME}/ascend_ddk/arm/include/opencv4/
     ${INC_PATH}/acllib/include/
     $ENV{HOME}/ascend_ddk/arm/include/
@@ -57,6 +59,9 @@ link_directories(
     $ENV{HOME}/Ascend/driver/
     $ENV{HOME}/Ascend/
     ${INC_PATH}/atc/lib64/
+    $ENV{DDK_PATH}/acllib_ubuntu18.04.aarch64/acllib/lib64/stub
+    /root/MindStudio_workspace/ascend_ddk/arm/lib64
+    ../presenteragent/out
 )
 
 add_executable(main

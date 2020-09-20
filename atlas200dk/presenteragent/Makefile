@@ -49,6 +49,7 @@ CC_FLAGS := $(INC_DIR) -std=c++11 -Wall -fPIC -O2
 
 LNK_FLAGS := \
 	-Wl,-rpath-link=$(DDK_PATH)/atc/lib64 \
+	-L/root/MindStudio_workspace/ascend_ddk/arm/lib64 \
         -L$(DDK_PATH)/atc/lib64 \
         -L$(DDK_PATH)/../atc/lib64 \
         -L$(DDK_PATH)/acllib/lib64 \
