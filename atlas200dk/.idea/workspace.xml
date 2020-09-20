@@ -1,7 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a2b7bc2-4625-48df-830b-d7e370ad946f" name="Default Changelist" comment="" />
+    <list default="true" id="2a2b7bc2-4625-48df-830b-d7e370ad946f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../atlas200dk_old/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../atlas200dk_old/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../atlas200dk_old/sample-handpose-i2c.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.build_project" beforeDir="false" afterPath="$PROJECT_DIR$/../atlas200dk_old/.build_project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../atlas200dk_old/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../atlas200dk_old/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../atlas200dk_old/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../atlas200dk_old/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenterserver/README" beforeDir="false" afterPath="$PROJECT_DIR$/../atlas200dk_old/presenterserver/README" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenterserver/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../atlas200dk_old/presenterserver/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenterserver/common/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../atlas200dk_old/presenterserver/common/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenterserver/common/app_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/../atlas200dk_old/presenterserver/common/app_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenterserver/common/channel_handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/../atlas200dk_old/presenterserver/common/channel_handler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenterserver/common/channel_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/../atlas200dk_old/presenterserver/common/channel_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenterserver/common/parameter_validation.py" beforeDir="false" afterPath="$PROJECT_DIR$/../atlas200dk_old/presenterserver/common/parameter_validation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenterserver/common/presenter_message_pb2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../atlas200dk_old/presenterserver/common/presenter_message_pb2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenterserver/common/presenter_socket_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/../atlas200dk_old/presenterserver/common/presenter_socket_server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenterserver/hand_pose/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../atlas200dk_old/presenterserver/hand_pose/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenterserver/hand_pose/config/config.conf" beforeDir="false" afterPath="$PROJECT_DIR$/../atlas200dk_old/presenterserver/hand_pose/config/config.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenterserver/hand_pose/config/logging.conf" beforeDir="false" afterPath="$PROJECT_DIR$/../atlas200dk_old/presenterserver/hand_pose/config/logging.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenterserver/hand_pose/src/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../atlas200dk_old/presenterserver/hand_pose/src/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenterserver/hand_pose/src/config_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/../atlas200dk_old/presenterserver/hand_pose/src/config_parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenterserver/hand_pose/src/hand_pose_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/../atlas200dk_old/presenterserver/hand_pose/src/hand_pose_server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenterserver/hand_pose/src/web.py" beforeDir="false" afterPath="$PROJECT_DIR$/../atlas200dk_old/presenterserver/hand_pose/src/web.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenterserver/hand_pose/ui/static/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/../atlas200dk_old/presenterserver/hand_pose/ui/static/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenterserver/hand_pose/ui/static/css/dialog.css" beforeDir="false" afterPath="$PROJECT_DIR$/../atlas200dk_old/presenterserver/hand_pose/ui/static/css/dialog.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenterserver/hand_pose/ui/static/css/list.css" beforeDir="false" afterPath="$PROJECT_DIR$/../atlas200dk_old/presenterserver/hand_pose/ui/static/css/list.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenterserver/hand_pose/ui/static/css/testvideo.css" beforeDir="false" afterPath="$PROJECT_DIR$/../atlas200dk_old/presenterserver/hand_pose/ui/static/css/testvideo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenterserver/hand_pose/ui/static/images/loading.gif" beforeDir="false" afterPath="$PROJECT_DIR$/../atlas200dk_old/presenterserver/hand_pose/ui/static/images/loading.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenterserver/hand_pose/ui/static/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/../atlas200dk_old/presenterserver/hand_pose/ui/static/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenterserver/hand_pose/ui/static/images/u1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../atlas200dk_old/presenterserver/hand_pose/ui/static/images/u1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenterserver/hand_pose/ui/static/images/u2.png" beforeDir="false" afterPath="$PROJECT_DIR$/../atlas200dk_old/presenterserver/hand_pose/ui/static/images/u2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenterserver/hand_pose/ui/static/images/u3.png" beforeDir="false" afterPath="$PROJECT_DIR$/../atlas200dk_old/presenterserver/hand_pose/ui/static/images/u3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenterserver/hand_pose/ui/static/images/u4.png" beforeDir="false" afterPath="$PROJECT_DIR$/../atlas200dk_old/presenterserver/hand_pose/ui/static/images/u4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenterserver/hand_pose/ui/static/images/u5.png" beforeDir="false" afterPath="$PROJECT_DIR$/../atlas200dk_old/presenterserver/hand_pose/ui/static/images/u5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenterserver/hand_pose/ui/static/images/u6.png" beforeDir="false" afterPath="$PROJECT_DIR$/../atlas200dk_old/presenterserver/hand_pose/ui/static/images/u6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenterserver/hand_pose/ui/static/js/dialog.js" beforeDir="false" afterPath="$PROJECT_DIR$/../atlas200dk_old/presenterserver/hand_pose/ui/static/js/dialog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenterserver/hand_pose/ui/static/js/dialog.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../atlas200dk_old/presenterserver/hand_pose/ui/static/js/dialog.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenterserver/hand_pose/ui/static/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../atlas200dk_old/presenterserver/hand_pose/ui/static/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenterserver/hand_pose/ui/static/js/jquery-1.10.2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../atlas200dk_old/presenterserver/hand_pose/ui/static/js/jquery-1.10.2.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenterserver/hand_pose/ui/static/js/socket.io.js" beforeDir="false" afterPath="$PROJECT_DIR$/../atlas200dk_old/presenterserver/hand_pose/ui/static/js/socket.io.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenterserver/hand_pose/ui/static/js/socket.io.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../atlas200dk_old/presenterserver/hand_pose/ui/static/js/socket.io.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenterserver/hand_pose/ui/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/../atlas200dk_old/presenterserver/hand_pose/ui/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenterserver/hand_pose/ui/templates/view.html" beforeDir="false" afterPath="$PROJECT_DIR$/../atlas200dk_old/presenterserver/hand_pose/ui/templates/view.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenterserver/presenter_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/../atlas200dk_old/presenterserver/presenter_server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenterserver/requirements" beforeDir="false" afterPath="$PROJECT_DIR$/../atlas200dk_old/presenterserver/requirements" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_present_server.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../atlas200dk_old/run_present_server.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/build_ezdvpp.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../atlas200dk_old/script/build_ezdvpp.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/build_presenteragent.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../atlas200dk_old/script/build_presenteragent.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../atlas200dk_old/script/deploy.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/func_util.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../atlas200dk_old/script/func_util.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/graph_template.config" beforeDir="false" afterPath="$PROJECT_DIR$/../atlas200dk_old/script/graph_template.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/hand_pose.om" beforeDir="false" afterPath="$PROJECT_DIR$/../atlas200dk_old/script/hand_pose.om" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../atlas200dk_old/src/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../atlas200dk_old/src/Main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.h" beforeDir="false" afterPath="$PROJECT_DIR$/../atlas200dk_old/src/Main.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/camera_datasets/Mind_camera_datasets.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../atlas200dk_old/src/camera_datasets/Mind_camera_datasets.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/camera_datasets/Mind_camera_datasets.h" beforeDir="false" afterPath="$PROJECT_DIR$/../atlas200dk_old/src/camera_datasets/Mind_camera_datasets.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/hand_pose_params.h" beforeDir="false" afterPath="$PROJECT_DIR$/../atlas200dk_old/src/common/hand_pose_params.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph.config" beforeDir="false" afterPath="$PROJECT_DIR$/../atlas200dk_old/src/graph.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hand_pose_inference/hand_pose_inference.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../atlas200dk_old/src/hand_pose_inference/hand_pose_inference.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hand_pose_inference/hand_pose_inference.h" beforeDir="false" afterPath="$PROJECT_DIR$/../atlas200dk_old/src/hand_pose_inference/hand_pose_inference.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hand_pose_post_process/hand_pose_post_process.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../atlas200dk_old/src/hand_pose_post_process/hand_pose_post_process.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hand_pose_post_process/hand_pose_post_process.h" beforeDir="false" afterPath="$PROJECT_DIR$/../atlas200dk_old/src/hand_pose_post_process/hand_pose_post_process.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/param_configure.conf" beforeDir="false" afterPath="$PROJECT_DIR$/../atlas200dk_old/src/param_configure.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uart/uart.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../atlas200dk_old/src/uart/uart.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uart/uart.h" beforeDir="false" afterPath="$PROJECT_DIR$/../atlas200dk_old/src/uart/uart.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../atlas200dk_new/atlas200dk_new.iml" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/../out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,48 +80,200 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/param_configure.conf">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/presenterserver/README">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="300">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/presenterserver/hand_pose/config/config.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/presenterserver/requirements">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.project">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="900">
+              <caret line="45" column="31" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/camera.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="740">
+              <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
+              <folding>
+                <element signature="e#1984#2019#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="25" column="7" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/param_configure.conf" />
+        <option value="$PROJECT_DIR$/presenterserver/hand_pose/config/config.conf" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/CMakeLists.txt" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="547" />
-    <option name="y" value="216" />
-    <option name="width" value="928" />
-    <option name="height" value="1056" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="525" />
+    <option name="y" value="185" />
+    <option name="width" value="2323" />
+    <option name="height" value="1593" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="OperatorsViewPane" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
-      <pane id="ProjectPane">
+      <pane id="OperatorsViewPane">
         <subPane>
           <expand>
             <path>
-              <item name="sample-facedetection-1-3x-0-0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sample-facedetection-1-3x-0-0" type="462c0819:PsiDirectoryNode" />
+              <item name="atlas200dk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="atlas200dk" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sample-facedetection-1-3x-0-0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sample-facedetection-1-3x-0-0" type="462c0819:PsiDirectoryNode" />
+              <item name="atlas200dk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="atlas200dk" type="462c0819:PsiDirectoryNode" />
+              <item name="presenterserver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="atlas200dk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="atlas200dk" type="462c0819:PsiDirectoryNode" />
+              <item name="presenterserver" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="atlas200dk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="atlas200dk" type="462c0819:PsiDirectoryNode" />
+              <item name="presenterserver" type="462c0819:PsiDirectoryNode" />
+              <item name="hand_pose" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="atlas200dk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="atlas200dk" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="atlas200dk" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="handpose" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="atlas200dk" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="handpose" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="presenterserver" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="atlas200dk" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="handpose" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="presenterserver" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="common" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="atlas200dk" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="handpose" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="presenterserver" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="hand_pose" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="atlas200dk" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="handpose" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="presenterserver" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="hand_pose" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="config" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="atlas200dk" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="handpose" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="presenterserver" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="hand_pose" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="atlas200dk" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="handpose" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="presenterserver" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="hand_pose" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ui" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="atlas200dk" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="handpose" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="presenterserver" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="hand_pose" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ui" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="static" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="atlas200dk" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="handpose" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="presenterserver" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="hand_pose" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ui" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="templates" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="atlas200dk" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="handpose" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -61,8 +282,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="system.adk" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -75,6 +297,17 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="Ascend App.atlas200-zrc">
+    <configuration default="true" type="Ascend App Configuration Type" factoryName="Ascend App" hostip="10.28.114.66" commandArguments="">
+      <method v="2" />
+    </configuration>
+    <configuration name="atlas200-zrc" type="Ascend App Configuration Type" factoryName="Ascend App" hostip="10.28.114.66" commandArguments="">
+      <method v="2" />
+    </configuration>
+    <configuration name="atlas200dk" type="Ascend App Configuration Type" factoryName="Ascend App" hostip="10.28.114.66" commandArguments="">
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -90,11 +323,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-4" width="1857" height="940" extended-state="6" />
+    <frame x="525" y="185" width="2323" height="1593" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2489083" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2013919" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="ModelArts Explorer" order="3" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Build" visible="true" weight="0.3293623" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -105,18 +341,68 @@
       <window_info anchor="bottom" id="Log" order="7" />
       <window_info anchor="bottom" id="Output" order="8" weight="0.30873308" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3099631" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.39243168" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Tail" order="12" />
+      <window_info anchor="bottom" id="Pylint" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/param_configure.conf">
+    <entry file="file://$PROJECT_DIR$/src/param_configure.conf" />
+    <entry file="file://$PROJECT_DIR$/src/Main.cpp" />
+    <entry file="file://$PROJECT_DIR$/src/graph.config" />
+    <entry file="file://$PROJECT_DIR$/src/uart/uart.cpp" />
+    <entry file="file://$PROJECT_DIR$/presenterserver/hand_pose/config/config.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="100">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.project">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/presenterserver/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/presenterserver/requirements">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="25" column="7" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="45" column="31" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/camera.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="740">
+          <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
+          <folding>
+            <element signature="e#1984#2019#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

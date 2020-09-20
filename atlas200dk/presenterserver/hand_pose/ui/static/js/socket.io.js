@@ -446,7 +446,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    return exports.storage.debug;
 	  } catch(e) {}
 
-	  // If debug isn't set in LS, and we're in Electron, try to load $DEBUG
+	  // If debug isn't set in LS, and we're in Electron, try to load #DEBUG
 	  if (typeof process !== 'undefined' && 'env' in process) {
 	    return process.env.DEBUG;
 	  }

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 #   =======================================================================
 #
-# Copyright (C) 2018, Hisilicon Technologies Co., Ltd. All Rights Reserved.
+# Copyright (C) 2020, Hisilicon Technologies Co., Ltd. All Rights Reserved.
 #
 # Redistribution and use in source and binary forms, with or without
 # modification, are permitted provided that the following conditions are met:

@@ -1,0 +1,42 @@
+[
+{
+  "directory": "/root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk/build/cmake/src",
+  "command": "/usr/bin/c++  -DENABLE_DVPP_INTERFACE -I/root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk/src/../inc -I/root/ascend_ddk/arm/include/opencv4 -I/root/.mindstudio/huawei/adk/1.75.T1.0.B010/acllib_ubuntu18.04.aarch64/acllib_ubuntu18.04.aarch64/acllib/include -I/root/ascend_ddk/arm/include -I/root/ascend_ddk/arm/include/ascenddk -I/root/Ascend -I/root/Ascend/ascenddk    -std=c++11 -o CMakeFiles/main.dir/utils.cpp.o -c /root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk/src/utils.cpp",
+  "file": "/root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk/src/utils.cpp"
+},
+{
+  "directory": "/root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk/build/cmake/src",
+  "command": "/usr/bin/c++  -DENABLE_DVPP_INTERFACE -I/root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk/src/../inc -I/root/ascend_ddk/arm/include/opencv4 -I/root/.mindstudio/huawei/adk/1.75.T1.0.B010/acllib_ubuntu18.04.aarch64/acllib_ubuntu18.04.aarch64/acllib/include -I/root/ascend_ddk/arm/include -I/root/ascend_ddk/arm/include/ascenddk -I/root/Ascend -I/root/Ascend/ascenddk    -std=c++11 -o CMakeFiles/main.dir/camera.cpp.o -c /root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk/src/camera.cpp",
+  "file": "/root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk/src/camera.cpp"
+},
+{
+  "directory": "/root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk/build/cmake/src",
+  "command": "/usr/bin/c++  -DENABLE_DVPP_INTERFACE -I/root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk/src/../inc -I/root/ascend_ddk/arm/include/opencv4 -I/root/.mindstudio/huawei/adk/1.75.T1.0.B010/acllib_ubuntu18.04.aarch64/acllib_ubuntu18.04.aarch64/acllib/include -I/root/ascend_ddk/arm/include -I/root/ascend_ddk/arm/include/ascenddk -I/root/Ascend -I/root/Ascend/ascenddk    -std=c++11 -o CMakeFiles/main.dir/model_process.cpp.o -c /root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk/src/model_process.cpp",
+  "file": "/root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk/src/model_process.cpp"
+},
+{
+  "directory": "/root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk/build/cmake/src",
+  "command": "/usr/bin/c++  -DENABLE_DVPP_INTERFACE -I/root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk/src/../inc -I/root/ascend_ddk/arm/include/opencv4 -I/root/.mindstudio/huawei/adk/1.75.T1.0.B010/acllib_ubuntu18.04.aarch64/acllib_ubuntu18.04.aarch64/acllib/include -I/root/ascend_ddk/arm/include -I/root/ascend_ddk/arm/include/ascenddk -I/root/Ascend -I/root/Ascend/ascenddk    -std=c++11 -o CMakeFiles/main.dir/hand_pose.cpp.o -c /root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk/src/hand_pose.cpp",
+  "file": "/root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk/src/hand_pose.cpp"
+},
+{
+  "directory": "/root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk/build/cmake/src",
+  "command": "/usr/bin/c++  -DENABLE_DVPP_INTERFACE -I/root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk/src/../inc -I/root/ascend_ddk/arm/include/opencv4 -I/root/.mindstudio/huawei/adk/1.75.T1.0.B010/acllib_ubuntu18.04.aarch64/acllib_ubuntu18.04.aarch64/acllib/include -I/root/ascend_ddk/arm/include -I/root/ascend_ddk/arm/include/ascenddk -I/root/Ascend -I/root/Ascend/ascenddk    -std=c++11 -o CMakeFiles/main.dir/handpose_decode.cpp.o -c /root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk/src/handpose_decode.cpp",
+  "file": "/root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk/src/handpose_decode.cpp"
+},
+{
+  "directory": "/root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk/build/cmake/src",
+  "command": "/usr/bin/c++  -DENABLE_DVPP_INTERFACE -I/root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk/src/../inc -I/root/ascend_ddk/arm/include/opencv4 -I/root/.mindstudio/huawei/adk/1.75.T1.0.B010/acllib_ubuntu18.04.aarch64/acllib_ubuntu18.04.aarch64/acllib/include -I/root/ascend_ddk/arm/include -I/root/ascend_ddk/arm/include/ascenddk -I/root/Ascend -I/root/Ascend/ascenddk    -std=c++11 -o CMakeFiles/main.dir/i2c.cpp.o -c /root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk/src/i2c.cpp",
+  "file": "/root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk/src/i2c.cpp"
+},
+{
+  "directory": "/root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk/build/cmake/src",
+  "command": "/usr/bin/c++  -DENABLE_DVPP_INTERFACE -I/root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk/src/../inc -I/root/ascend_ddk/arm/include/opencv4 -I/root/.mindstudio/huawei/adk/1.75.T1.0.B010/acllib_ubuntu18.04.aarch64/acllib_ubuntu18.04.aarch64/acllib/include -I/root/ascend_ddk/arm/include -I/root/ascend_ddk/arm/include/ascenddk -I/root/Ascend -I/root/Ascend/ascenddk    -std=c++11 -o CMakeFiles/main.dir/uart.cpp.o -c /root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk/src/uart.cpp",
+  "file": "/root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk/src/uart.cpp"
+},
+{
+  "directory": "/root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk/build/cmake/src",
+  "command": "/usr/bin/c++  -DENABLE_DVPP_INTERFACE -I/root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk/src/../inc -I/root/ascend_ddk/arm/include/opencv4 -I/root/.mindstudio/huawei/adk/1.75.T1.0.B010/acllib_ubuntu18.04.aarch64/acllib_ubuntu18.04.aarch64/acllib/include -I/root/ascend_ddk/arm/include -I/root/ascend_ddk/arm/include/ascenddk -I/root/Ascend -I/root/Ascend/ascenddk    -std=c++11 -o CMakeFiles/main.dir/main.cpp.o -c /root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk/src/main.cpp",
+  "file": "/root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk/src/main.cpp"
+}
+]

@@ -1,0 +1,5 @@
+-- env INC_PATH: /root/.mindstudio/huawei/adk/1.75.T1.0.B010/acllib_ubuntu18.04.aarch64/acllib_ubuntu18.04.aarch64
+-- set default LIB_PATH: /usr/local/Ascend/acllib/lib64/stub/
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk/build/cmake

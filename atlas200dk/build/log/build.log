@@ -1,0 +1,176 @@
+2020-09-19 23:27:15 [ INFO ] Build command: 
+2020-09-19 23:27:15 [ INFO ] export DDK_PATH=/root/.mindstudio/huawei/adk/1.75.T1.0.B010/ && export NPU_HOST_LIB=/root/.mindstudio/huawei/adk/1.75.T1.0.B010/acllib/lib64/stub && export LANG="C" && cd /root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk/build/intermediates && rm -rf * && /root/MindStudio-ubuntu/tools/cmake/bin/cmake /root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++-5 && make && echo atlas200dk build successfully.
+2020-09-19 23:27:15 [ INFO ] -- The C compiler identification is GNU 7.5.0
+2020-09-19 23:27:15 [ INFO ] -- The CXX compiler identification is GNU 5.5.0
+2020-09-19 23:27:15 [ INFO ] -- Check for working C compiler: /usr/bin/cc
+2020-09-19 23:27:15 [ INFO ] -- Check for working C compiler: /usr/bin/cc -- works
+2020-09-19 23:27:15 [ INFO ] -- Detecting C compiler ABI info
+2020-09-19 23:27:15 [ INFO ] -- Detecting C compiler ABI info - done
+2020-09-19 23:27:15 [ INFO ] -- Detecting C compile features
+2020-09-19 23:27:15 [ INFO ] -- Detecting C compile features - done
+2020-09-19 23:27:15 [ INFO ] -- Check for working CXX compiler: /usr/bin/aarch64-linux-gnu-g++-5
+2020-09-19 23:27:15 [ INFO ] -- Check for working CXX compiler: /usr/bin/aarch64-linux-gnu-g++-5 -- works
+2020-09-19 23:27:15 [ INFO ] -- Detecting CXX compiler ABI info
+2020-09-19 23:27:16 [ INFO ] -- Detecting CXX compiler ABI info - done
+2020-09-19 23:27:16 [ INFO ] -- Detecting CXX compile features
+2020-09-19 23:27:16 [ INFO ] -- Detecting CXX compile features - done
+2020-09-19 23:27:16 [ INFO ] -- env INC_PATH: /root/.mindstudio/huawei/adk/1.75.T1.0.B010/
+2020-09-19 23:27:16 [ INFO ] -- env LIB_PATH: /root/.mindstudio/huawei/adk/1.75.T1.0.B010/acllib/lib64/stub
+2020-09-19 23:27:16 [ INFO ] -- Configuring done
+2020-09-19 23:27:16 [ INFO ] -- Generating done
+2020-09-19 23:27:16 [ INFO ] -- Build files have been written to: /root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk/build/intermediates
+2020-09-19 23:27:16 [ INFO ] Scanning dependencies of target main
+2020-09-19 23:27:16 [ INFO ] [ 11%] Building CXX object src/CMakeFiles/main.dir/utils.cpp.o
+2020-09-19 23:27:16 [ INFO ] In file included from /root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk/src/utils.cpp:19:0:
+2020-09-19 23:27:16 [ ERROR ] /root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk/src/../inc/utils.h:22:21: fatal error: acl/acl.h: No such file or directory
+2020-09-19 23:27:16 [ INFO ] compilation terminated.
+2020-09-19 23:27:16 [ ERROR ] src/CMakeFiles/main.dir/build.make:62: recipe for target 'src/CMakeFiles/main.dir/utils.cpp.o' failed
+2020-09-19 23:27:16 [ ERROR ] make[2]: *** [src/CMakeFiles/main.dir/utils.cpp.o] Error 1
+2020-09-19 23:27:16 [ ERROR ] CMakeFiles/Makefile2:93: recipe for target 'src/CMakeFiles/main.dir/all' failed
+2020-09-19 23:27:16 [ ERROR ] make[1]: *** [src/CMakeFiles/main.dir/all] Error 2
+2020-09-19 23:27:16 [ ERROR ] Makefile:129: recipe for target 'all' failed
+2020-09-19 23:27:16 [ ERROR ] make: *** [all] Error 2
+2020-09-20 00:01:14 [ INFO ] Build command: 
+2020-09-20 00:01:14 [ INFO ] export DDK_PATH=/root/.mindstudio/huawei/adk/1.75.T1.0.B010/ && export NPU_HOST_LIB=/root/.mindstudio/huawei/adk/1.75.T1.0.B010/acllib/lib64/stub && export LANG="C" && cd /root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk/build/intermediates && rm -rf * && /root/MindStudio-ubuntu/tools/cmake/bin/cmake /root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++-5 && make && echo atlas200dk build successfully.
+2020-09-20 00:01:14 [ INFO ] -- The C compiler identification is GNU 7.5.0
+2020-09-20 00:01:14 [ INFO ] -- The CXX compiler identification is GNU 5.5.0
+2020-09-20 00:01:14 [ INFO ] -- Check for working C compiler: /usr/bin/cc
+2020-09-20 00:01:14 [ INFO ] -- Check for working C compiler: /usr/bin/cc -- works
+2020-09-20 00:01:14 [ INFO ] -- Detecting C compiler ABI info
+2020-09-20 00:01:14 [ INFO ] -- Detecting C compiler ABI info - done
+2020-09-20 00:01:15 [ INFO ] -- Detecting C compile features
+2020-09-20 00:01:15 [ INFO ] -- Detecting C compile features - done
+2020-09-20 00:01:15 [ INFO ] -- Check for working CXX compiler: /usr/bin/aarch64-linux-gnu-g++-5
+2020-09-20 00:01:15 [ INFO ] -- Check for working CXX compiler: /usr/bin/aarch64-linux-gnu-g++-5 -- works
+2020-09-20 00:01:15 [ INFO ] -- Detecting CXX compiler ABI info
+2020-09-20 00:01:15 [ INFO ] -- Detecting CXX compiler ABI info - done
+2020-09-20 00:01:15 [ INFO ] -- Detecting CXX compile features
+2020-09-20 00:01:15 [ INFO ] -- Detecting CXX compile features - done
+2020-09-20 00:01:15 [ ERROR ] CMake Error at src/CMakeLists.txt:58:
+2020-09-20 00:01:15 [ ERROR ]   Parse error.  Expected a command name, got unquoted argument with text
+2020-09-20 00:01:15 [ INFO ]   "00".
+2020-09-20 00:01:15 [ INFO ] 
+2020-09-20 00:01:15 [ INFO ] 
+2020-09-20 00:01:15 [ ERROR ] -- Configuring incomplete, errors occurred!
+2020-09-20 00:01:15 [ INFO ] See also "/root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk/build/intermediates/CMakeFiles/CMakeOutput.log".
+2020-09-20 00:01:44 [ INFO ] Build command: 
+2020-09-20 00:01:44 [ INFO ] export DDK_PATH=/root/.mindstudio/huawei/adk/1.75.T1.0.B010/ && export NPU_HOST_LIB=/root/.mindstudio/huawei/adk/1.75.T1.0.B010/acllib/lib64/stub && export LANG="C" && cd /root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk/build/intermediates && /root/MindStudio-ubuntu/tools/cmake/bin/cmake /root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++-5 && make && echo atlas200dk build successfully.
+2020-09-20 00:01:44 [ INFO ] -- env INC_PATH: /root/.mindstudio/huawei/adk/1.75.T1.0.B010/
+2020-09-20 00:01:44 [ INFO ] -- env LIB_PATH: /root/.mindstudio/huawei/adk/1.75.T1.0.B010/acllib/lib64/stub
+2020-09-20 00:01:44 [ INFO ] -- Configuring done
+2020-09-20 00:01:44 [ INFO ] -- Generating done
+2020-09-20 00:01:44 [ INFO ] -- Build files have been written to: /root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk/build/intermediates
+2020-09-20 00:01:44 [ INFO ] Scanning dependencies of target main
+2020-09-20 00:01:44 [ INFO ] [ 11%] Building CXX object src/CMakeFiles/main.dir/utils.cpp.o
+2020-09-20 00:01:44 [ INFO ] In file included from /root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk/src/utils.cpp:19:0:
+2020-09-20 00:01:44 [ ERROR ] /root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk/src/../inc/utils.h:22:21: fatal error: acl/acl.h: No such file or directory
+2020-09-20 00:01:44 [ INFO ] compilation terminated.
+2020-09-20 00:01:44 [ ERROR ] src/CMakeFiles/main.dir/build.make:62: recipe for target 'src/CMakeFiles/main.dir/utils.cpp.o' failed
+2020-09-20 00:01:44 [ ERROR ] make[2]: *** [src/CMakeFiles/main.dir/utils.cpp.o] Error 1
+2020-09-20 00:01:44 [ ERROR ] CMakeFiles/Makefile2:93: recipe for target 'src/CMakeFiles/main.dir/all' failed
+2020-09-20 00:01:44 [ ERROR ] make[1]: *** [src/CMakeFiles/main.dir/all] Error 2
+2020-09-20 00:01:44 [ ERROR ] Makefile:129: recipe for target 'all' failed
+2020-09-20 00:01:44 [ ERROR ] make: *** [all] Error 2
+2020-09-20 00:13:06 [ INFO ] Build command: 
+2020-09-20 00:13:06 [ INFO ] export DDK_PATH=/root/.mindstudio/huawei/adk/1.75.T1.0.B010/ && export NPU_HOST_LIB=/root/.mindstudio/huawei/adk/1.75.T1.0.B010/acllib/lib64/stub && export LANG="C" && cd /root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk/build/intermediates && /root/MindStudio-ubuntu/tools/cmake/bin/cmake /root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++-5 && make && echo atlas200dk build successfully.
+2020-09-20 00:13:06 [ INFO ] -- env INC_PATH: /root/.mindstudio/huawei/adk/1.75.T1.0.B010/
+2020-09-20 00:13:06 [ INFO ] -- env LIB_PATH: /root/.mindstudio/huawei/adk/1.75.T1.0.B010/acllib/lib64/stub
+2020-09-20 00:13:06 [ INFO ] -- Configuring done
+2020-09-20 00:13:06 [ INFO ] -- Generating done
+2020-09-20 00:13:06 [ INFO ] -- Build files have been written to: /root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk/build/intermediates
+2020-09-20 00:13:06 [ INFO ] [ 11%] Building CXX object src/CMakeFiles/main.dir/utils.cpp.o
+2020-09-20 00:13:07 [ INFO ] In file included from /root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk/src/utils.cpp:19:0:
+2020-09-20 00:13:07 [ ERROR ] /root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk/src/../inc/utils.h:22:21: fatal error: acl/acl.h: No such file or directory
+2020-09-20 00:13:07 [ INFO ] compilation terminated.
+2020-09-20 00:13:07 [ ERROR ] src/CMakeFiles/main.dir/build.make:62: recipe for target 'src/CMakeFiles/main.dir/utils.cpp.o' failed
+2020-09-20 00:13:07 [ ERROR ] make[2]: *** [src/CMakeFiles/main.dir/utils.cpp.o] Error 1
+2020-09-20 00:13:07 [ ERROR ] CMakeFiles/Makefile2:93: recipe for target 'src/CMakeFiles/main.dir/all' failed
+2020-09-20 00:13:07 [ ERROR ] make[1]: *** [src/CMakeFiles/main.dir/all] Error 2
+2020-09-20 00:13:07 [ ERROR ] Makefile:129: recipe for target 'all' failed
+2020-09-20 00:13:07 [ ERROR ] make: *** [all] Error 2
+2020-09-20 00:14:51 [ INFO ] Build command: 
+2020-09-20 00:14:51 [ INFO ] export DDK_PATH=/root/.mindstudio/huawei/adk/1.75.T1.0.B010/ && export NPU_HOST_LIB=/root/.mindstudio/huawei/adk/1.75.T1.0.B010/acllib/lib64/stub && export LANG="C" && cd /root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk/build/intermediates && /root/MindStudio-ubuntu/tools/cmake/bin/cmake /root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++-5 && make && echo atlas200dk build successfully.
+2020-09-20 00:14:51 [ INFO ] -- env INC_PATH: /root/.mindstudio/huawei/adk/1.75.T1.0.B010//acllib_ubuntu18.04.aarch64
+2020-09-20 00:14:51 [ INFO ] -- env LIB_PATH: /root/.mindstudio/huawei/adk/1.75.T1.0.B010/acllib/lib64/stub
+2020-09-20 00:14:51 [ INFO ] -- Configuring done
+2020-09-20 00:14:51 [ INFO ] -- Generating done
+2020-09-20 00:14:51 [ INFO ] -- Build files have been written to: /root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk/build/intermediates
+2020-09-20 00:14:51 [ INFO ] Scanning dependencies of target main
+2020-09-20 00:14:51 [ INFO ] [ 11%] Building CXX object src/CMakeFiles/main.dir/utils.cpp.o
+2020-09-20 00:14:52 [ INFO ] In file included from /root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk/src/utils.cpp:19:0:
+2020-09-20 00:14:52 [ ERROR ] /root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk/src/../inc/utils.h:26:30: fatal error: opencv2/opencv.hpp: No such file or directory
+2020-09-20 00:14:52 [ INFO ] compilation terminated.
+2020-09-20 00:14:52 [ ERROR ] src/CMakeFiles/main.dir/build.make:62: recipe for target 'src/CMakeFiles/main.dir/utils.cpp.o' failed
+2020-09-20 00:14:52 [ ERROR ] make[2]: *** [src/CMakeFiles/main.dir/utils.cpp.o] Error 1
+2020-09-20 00:14:52 [ ERROR ] CMakeFiles/Makefile2:93: recipe for target 'src/CMakeFiles/main.dir/all' failed
+2020-09-20 00:14:52 [ ERROR ] make[1]: *** [src/CMakeFiles/main.dir/all] Error 2
+2020-09-20 00:14:52 [ ERROR ] Makefile:129: recipe for target 'all' failed
+2020-09-20 00:14:52 [ ERROR ] make: *** [all] Error 2
+2020-09-20 01:50:48 [ INFO ] Build command: 
+2020-09-20 01:50:48 [ INFO ] export DDK_PATH=/root/.mindstudio/huawei/adk/1.75.T1.0.B010/ && export NPU_HOST_LIB=/root/.mindstudio/huawei/adk/1.75.T1.0.B010/acllib/lib64/stub && export LANG="C" && cd /root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk/build/intermediates && /root/MindStudio-ubuntu/tools/cmake/bin/cmake /root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++-5 && make && echo atlas200dk build successfully.
+2020-09-20 01:50:48 [ INFO ] -- env INC_PATH: /root/.mindstudio/huawei/adk/1.75.T1.0.B010//acllib_ubuntu18.04.aarch64
+2020-09-20 01:50:48 [ INFO ] -- env LIB_PATH: /root/.mindstudio/huawei/adk/1.75.T1.0.B010/acllib/lib64/stub
+2020-09-20 01:50:48 [ INFO ] -- Configuring done
+2020-09-20 01:50:48 [ INFO ] -- Generating done
+2020-09-20 01:50:48 [ INFO ] -- Build files have been written to: /root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk/build/intermediates
+2020-09-20 01:50:48 [ INFO ] [ 11%] Building CXX object src/CMakeFiles/main.dir/utils.cpp.o
+2020-09-20 01:50:50 [ INFO ] [ 22%] Building CXX object src/CMakeFiles/main.dir/camera.cpp.o
+2020-09-20 01:50:50 [ ERROR ] /root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk/src/camera.cpp:47:35: fatal error: driver/peripheral_api.h: No such file or directory
+2020-09-20 01:50:50 [ INFO ] compilation terminated.
+2020-09-20 01:50:50 [ ERROR ] src/CMakeFiles/main.dir/build.make:75: recipe for target 'src/CMakeFiles/main.dir/camera.cpp.o' failed
+2020-09-20 01:50:50 [ ERROR ] make[2]: *** [src/CMakeFiles/main.dir/camera.cpp.o] Error 1
+2020-09-20 01:50:50 [ ERROR ] CMakeFiles/Makefile2:93: recipe for target 'src/CMakeFiles/main.dir/all' failed
+2020-09-20 01:50:50 [ ERROR ] make[1]: *** [src/CMakeFiles/main.dir/all] Error 2
+2020-09-20 01:50:50 [ ERROR ] Makefile:129: recipe for target 'all' failed
+2020-09-20 01:50:50 [ ERROR ] make: *** [all] Error 2
+2020-09-20 02:02:53 [ INFO ] Build command: 
+2020-09-20 02:02:53 [ INFO ] export DDK_PATH=/root/.mindstudio/huawei/adk/1.75.T1.0.B010/ && export NPU_HOST_LIB=/root/.mindstudio/huawei/adk/1.75.T1.0.B010/acllib/lib64/stub && export LANG="C" && cd /root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk/build/intermediates && /root/MindStudio-ubuntu/tools/cmake/bin/cmake /root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++-5 && make && echo atlas200dk build successfully.
+2020-09-20 02:02:53 [ INFO ] -- env INC_PATH: /root/.mindstudio/huawei/adk/1.75.T1.0.B010//acllib_ubuntu18.04.aarch64
+2020-09-20 02:02:53 [ INFO ] -- env LIB_PATH: /root/.mindstudio/huawei/adk/1.75.T1.0.B010/acllib/lib64/stub
+2020-09-20 02:02:53 [ INFO ] -- Configuring done
+2020-09-20 02:02:53 [ INFO ] -- Generating done
+2020-09-20 02:02:53 [ INFO ] -- Build files have been written to: /root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk/build/intermediates
+2020-09-20 02:02:53 [ INFO ] [ 11%] Building CXX object src/CMakeFiles/main.dir/camera.cpp.o
+2020-09-20 02:02:53 [ ERROR ] /root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk/src/camera.cpp:47:35: fatal error: driver/peripheral_api.h: No such file or directory
+2020-09-20 02:02:53 [ INFO ] compilation terminated.
+2020-09-20 02:02:53 [ ERROR ] src/CMakeFiles/main.dir/build.make:75: recipe for target 'src/CMakeFiles/main.dir/camera.cpp.o' failed
+2020-09-20 02:02:53 [ ERROR ] make[2]: *** [src/CMakeFiles/main.dir/camera.cpp.o] Error 1
+2020-09-20 02:02:53 [ ERROR ] CMakeFiles/Makefile2:93: recipe for target 'src/CMakeFiles/main.dir/all' failed
+2020-09-20 02:02:53 [ ERROR ] make[1]: *** [src/CMakeFiles/main.dir/all] Error 2
+2020-09-20 02:02:53 [ ERROR ] Makefile:129: recipe for target 'all' failed
+2020-09-20 02:02:53 [ ERROR ] make: *** [all] Error 2
+2020-09-20 02:02:54 [ INFO ] Build command: 
+2020-09-20 02:02:54 [ INFO ] export DDK_PATH=/root/.mindstudio/huawei/adk/1.75.T1.0.B010/ && export NPU_HOST_LIB=/root/.mindstudio/huawei/adk/1.75.T1.0.B010/acllib/lib64/stub && export LANG="C" && cd /root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk/build/intermediates && /root/MindStudio-ubuntu/tools/cmake/bin/cmake /root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++-5 && make && echo atlas200dk build successfully.
+2020-09-20 02:02:54 [ INFO ] -- env INC_PATH: /root/.mindstudio/huawei/adk/1.75.T1.0.B010//acllib_ubuntu18.04.aarch64
+2020-09-20 02:02:54 [ INFO ] -- env LIB_PATH: /root/.mindstudio/huawei/adk/1.75.T1.0.B010/acllib/lib64/stub
+2020-09-20 02:02:54 [ INFO ] -- Configuring done
+2020-09-20 02:02:54 [ INFO ] -- Generating done
+2020-09-20 02:02:54 [ INFO ] -- Build files have been written to: /root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk/build/intermediates
+2020-09-20 02:02:54 [ INFO ] [ 11%] Building CXX object src/CMakeFiles/main.dir/camera.cpp.o
+2020-09-20 02:02:55 [ ERROR ] /root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk/src/camera.cpp:47:35: fatal error: driver/peripheral_api.h: No such file or directory
+2020-09-20 02:02:55 [ INFO ] compilation terminated.
+2020-09-20 02:02:55 [ ERROR ] src/CMakeFiles/main.dir/build.make:75: recipe for target 'src/CMakeFiles/main.dir/camera.cpp.o' failed
+2020-09-20 02:02:55 [ ERROR ] make[2]: *** [src/CMakeFiles/main.dir/camera.cpp.o] Error 1
+2020-09-20 02:02:55 [ ERROR ] CMakeFiles/Makefile2:93: recipe for target 'src/CMakeFiles/main.dir/all' failed
+2020-09-20 02:02:55 [ ERROR ] make[1]: *** [src/CMakeFiles/main.dir/all] Error 2
+2020-09-20 02:02:55 [ ERROR ] Makefile:129: recipe for target 'all' failed
+2020-09-20 02:02:55 [ ERROR ] make: *** [all] Error 2
+2020-09-20 02:03:21 [ INFO ] Build command: 
+2020-09-20 02:03:21 [ INFO ] export DDK_PATH=/root/.mindstudio/huawei/adk/1.75.T1.0.B010/ && export NPU_HOST_LIB=/root/.mindstudio/huawei/adk/1.75.T1.0.B010/acllib/lib64/stub && export LANG="C" && cd /root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk/build/intermediates && /root/MindStudio-ubuntu/tools/cmake/bin/cmake /root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++-5 && make && echo atlas200dk build successfully.
+2020-09-20 02:03:21 [ INFO ] -- env INC_PATH: /root/.mindstudio/huawei/adk/1.75.T1.0.B010//acllib_ubuntu18.04.aarch64
+2020-09-20 02:03:21 [ INFO ] -- env LIB_PATH: /root/.mindstudio/huawei/adk/1.75.T1.0.B010/acllib/lib64/stub
+2020-09-20 02:03:21 [ INFO ] -- Configuring done
+2020-09-20 02:03:21 [ INFO ] -- Generating done
+2020-09-20 02:03:21 [ INFO ] -- Build files have been written to: /root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk/build/intermediates
+2020-09-20 02:03:22 [ INFO ] [ 11%] Building CXX object src/CMakeFiles/main.dir/camera.cpp.o
+2020-09-20 02:03:24 [ INFO ] [ 22%] Building CXX object src/CMakeFiles/main.dir/model_process.cpp.o
+2020-09-20 02:03:25 [ INFO ] [ 33%] Building CXX object src/CMakeFiles/main.dir/hand_pose.cpp.o
+2020-09-20 02:03:26 [ INFO ] In file included from /root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk/src/hand_pose.cpp:24:0:
+2020-09-20 02:03:26 [ ERROR ] /root/MindStudio_workspace/atlas200-ethz-pps/atlas200dk/src/../inc/hand_pose.h:24:47: fatal error: presenter/agent/presenter_channel.h: No such file or directory
+2020-09-20 02:03:26 [ INFO ] compilation terminated.
+2020-09-20 02:03:26 [ ERROR ] src/CMakeFiles/main.dir/build.make:101: recipe for target 'src/CMakeFiles/main.dir/hand_pose.cpp.o' failed
+2020-09-20 02:03:26 [ ERROR ] make[2]: *** [src/CMakeFiles/main.dir/hand_pose.cpp.o] Error 1
+2020-09-20 02:03:26 [ ERROR ] CMakeFiles/Makefile2:93: recipe for target 'src/CMakeFiles/main.dir/all' failed
+2020-09-20 02:03:26 [ ERROR ] make[1]: *** [src/CMakeFiles/main.dir/all] Error 2
+2020-09-20 02:03:26 [ ERROR ] Makefile:129: recipe for target 'all' failed
+2020-09-20 02:03:26 [ ERROR ] make: *** [all] Error 2

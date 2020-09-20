@@ -1,75 +1,78 @@
 # Copyright (c) Huawei Technologies Co., Ltd. 2019. All rights reserved.
 
+#export DDK_PATH=$HOME/.mindstudio/huawei/adk/1.75.T1.0.B010/acllib_ubuntu18.04.aarch64
+
+
 # CMake lowest version requirement
 cmake_minimum_required(VERSION 3.5.1)
 
 # project information
-project(sample_handpose)
+project(handpose_camera)
 
 # Compile options
 add_compile_options(-std=c++11)
 
-# Specify target generation path
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY  "../../outputs")
-set(CMAKE_LIBRARY_OUTPUT_DIRECTORY  "../../outputs")
-set(CMAKE_INSTALL_PREFIX "../../../run")
-set(CMAKE_OUTPUT_DIR "out")
-
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY  "../../../out")
+set(CMAKE_CXX_FLAGS_DEBUG "-fPIC -O0 -g -Wall")
 set(CMAKE_CXX_FLAGS_RELEASE "-fPIC -O2 -Wall")
 
-#execute_process(COMMAND bash ../../../script/deploy.sh RESULT_VARIABLE ret)
-#IF(${ret})
-#   message(FATAL_ERROR "some error occured!")
-#ENDIF(${ret})
+add_definitions(-DENABLE_DVPP_INTERFACE)
+set(INC_PATH $ENV{DDK_PATH}/acllib_ubuntu18.04.aarch64)
 
+if (NOT DEFINED ENV{DDK_PATH})
+    set(INC_PATH "/usr/local/Ascend")
+    message(STATUS "set default INC_PATH: ${INC_PATH}")
+else ()
+    message(STATUS "env INC_PATH: ${INC_PATH}")
+endif()
+
+set(LIB_PATH $ENV{NPU_HOST_LIB})
+
+if (NOT DEFINED ENV{NPU_HOST_LIB})
+    set(LIB_PATH "/usr/local/Ascend/acllib/lib64/stub/")
+    message(STATUS "set default LIB_PATH: ${LIB_PATH}")
+else ()
+    message(STATUS "env LIB_PATH: ${LIB_PATH}")
+endif()
 
 # Header path
 include_directories(
-.
-$ENV{DDK_PATH}/include/inc/
-$ENV{DDK_PATH}/include/third_party/protobuf/include
-$ENV{DDK_PATH}/include/third_party/cereal/include
-$ENV{DDK_PATH}/include/libc_sec/include
-
-$ENV{HOME}/ascend_ddk/include
-
-common camera_datasets hand_pose_inference hand_pose_post_process uart
+    ../inc/
+    $ENV{HOME}/ascend_ddk/arm/include/opencv4/
+    ${INC_PATH}/acllib/include/
+    $ENV{HOME}/ascend_ddk/arm/include/
+    $ENV{HOME}/ascend_ddk/arm/include/ascenddk
+    $ENV{HOME}/Ascend/
+    $ENV{HOME}/Ascend/ascenddk/
 )
 
-if(type STREQUAL host)
-    if(target STREQUAL "RC")
-        add_compile_options(-DIS_RC)
-    endif()
-
-    # add host lib path
-    link_directories($ENV{NPU_HOST_LIB} $ENV{HOME}/ascend_ddk/host/lib $ENV{HOME}/ascend_ddk/device/lib /home/HwHiAiUser/HIAI_PROJECTS/ascend_lib)
-    set(CMAKE_INSTALL_RPATH_USE_LINK_PATH TRUE)
-
-    add_executable(main Main.cpp)
-    add_library(Host SHARED camera_datasets/Mind_camera_datasets.cpp hand_pose_post_process/hand_pose_post_process.cpp uart/uart.cpp)
-
-    if(target STREQUAL "RC")
-        target_link_libraries(main matrixdaemon mmpa pthread dl rt)
-        target_link_libraries(Host matrixdaemon hiai_common media_mini presenteragent)
-    else()
-        target_link_libraries(main matrix mmpa pthread dl rt)
-        target_link_libraries(Host matrix hiai_common)
-    endif()
-
-    install(TARGETS main Host DESTINATION ${CMAKE_OUTPUT_DIR})
-else()
-    add_compile_options(-DCPU_ONLY)
-
-    # add device lib path
-    link_directories($ENV{NPU_DEV_LIB} $ENV{HOME}/ascend_ddk/host/lib $ENV{HOME}/ascend_ddk/device/lib /home/HwHiAiUser/HIAI_PROJECTS/ascend_lib)
-
-    add_library(Device SHARED hand_pose_inference/hand_pose_inference.cpp)
-
-    if(target STREQUAL "RC")
-        target_link_libraries(Device Dvpp_api Dvpp_jpeg_decoder Dvpp_jpeg_encoder Dvpp_vpc idedaemon hiai_common ascend_ezdvpp opencv_world media_mini hiai_server)
-    else()
-        target_link_libraries(Device Dvpp_api Dvpp_jpeg_decoder Dvpp_jpeg_encoder Dvpp_vpc idedaemon)
-    endif()
-
-    install(TARGETS Device DESTINATION ${CMAKE_OUTPUT_DIR})
+if(target STREQUAL "Simulator_Function")
+    add_compile_options(-DFUNC_SIM)
 endif()
+
+# add host lib path
+link_directories(
+    ${LIB_PATH}
+    $ENV{HOME}/ascend_ddk/arm/lib/
+    $ENV{HOME}/Ascend/driver/
+    $ENV{HOME}/Ascend/
+    ${INC_PATH}/atc/lib64/
+)
+
+add_executable(main
+        utils.cpp
+        camera.cpp
+        model_process.cpp
+        hand_pose.cpp
+        handpose_decode.cpp
+        i2c.cpp
+        uart.cpp
+        main.cpp)
+
+if(target STREQUAL "Simulator_Function")
+    target_link_libraries(main funcsim)
+else()
+    target_link_libraries(main ascendcl acl_dvpp stdc++ opencv_highgui c_sec slog media_mini pthread opencv_core opencv_imgproc opencv_imgcodecs opencv_calib3d opencv_features2d opencv_videoio protobuf presenteragent)
+endif()
+
+install(TARGETS main DESTINATION ${CMAKE_RUNTIME_OUTPUT_DIRECTORY})
