@@ -93,6 +93,8 @@ int main(int argc, char *argv[]) {
             ERROR_LOG("Failed to open channelId =%d.\n", channelId);
             return FAILED;
         }
+    } else {
+        INFO_LOG("camera channel opened successfully\n");
     }
 
     void * buffer = nullptr;
@@ -104,6 +106,7 @@ int main(int argc, char *argv[]) {
 
     aclmdlDataset* inferenceOutput = nullptr;
     cv::Mat frame(720, 1280, CV_8UC3, cv::Scalar(0, 0, 0));
+    INFO_LOG("initialization completed\n");
 
     while(1)
     {
@@ -112,6 +115,8 @@ int main(int argc, char *argv[]) {
         if (g_imagedata->data == nullptr) {
             ERROR_LOG("Read image %d failed\n", channelId);
             return FAILED;
+        } else {
+            INFO_LOG("Read image completed\n");
         }
         //Convert YUV to BGR
         processor.ConvertYUVtoBGR(*(g_imagedata.get()), frame.data);
