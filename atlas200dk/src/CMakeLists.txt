@@ -64,8 +64,7 @@ link_directories(
     $ENV{DDK_PATH}/acllib_ubuntu18.04.aarch64/acllib/lib64/stub
     /root/MindStudio_workspace/ascend_ddk/arm/lib64
     ../presenteragent/out
-    /usr/local/Ascend/include/
-    /usr/local/ascend_dk/include/
+    /usr/local/ascend_dk/lib/
 )
 
 add_executable(main

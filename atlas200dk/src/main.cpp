@@ -121,6 +121,8 @@ int main(int argc, char *argv[]) {
         if (ret != SUCCESS) {
             ERROR_LOG("Preprocess image %d failed, continue to read next\n",  channelId);
             return FAILED;
+        } else {
+            ERROR_LOG("frame preproc completed\n");
         }
 
         // Inference
@@ -128,13 +130,17 @@ int main(int argc, char *argv[]) {
         if ((ret != SUCCESS) || (inferenceOutput == nullptr)) {
             ERROR_LOG("Inference model inference output data failed\n");
             return FAILED;
+        } else {
+            ERROR_LOG("frame inference completed\n");
         }
-        
+
         // Postprocess
         ret = processor.Postprocess(frame, inferenceOutput);
         if (ret != SUCCESS) {
             ERROR_LOG("Process model inference output data failed\n");
             return FAILED;
+        } else {
+            ERROR_LOG("frame prostproc completed\n");
         }
     }
 
