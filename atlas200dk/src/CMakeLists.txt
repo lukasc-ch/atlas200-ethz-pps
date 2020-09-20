@@ -46,6 +46,8 @@ include_directories(
     $ENV{HOME}/ascend_ddk/arm/include/ascenddk
     $ENV{HOME}/Ascend/
     $ENV{HOME}/Ascend/ascenddk/
+    /usr/local/Ascend/include/
+    /usr/local/ascend_dk/include/
 )
 
 if(target STREQUAL "Simulator_Function")
@@ -62,6 +64,8 @@ link_directories(
     $ENV{DDK_PATH}/acllib_ubuntu18.04.aarch64/acllib/lib64/stub
     /root/MindStudio_workspace/ascend_ddk/arm/lib64
     ../presenteragent/out
+    /usr/local/Ascend/include/
+    /usr/local/ascend_dk/include/
 )
 
 add_executable(main
