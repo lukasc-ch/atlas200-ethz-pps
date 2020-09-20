@@ -87,12 +87,13 @@ int main(int argc, char *argv[]) {
     }
     INFO_LOG("HandPose processor initialized\n");
 
+    INFO_LOG("opening camera with channelId=%d\n", channelId);
     Camera  cameraDevice(channelId);
     if(false == cameraDevice.IsOpened(channelId))
     {
         if (cameraDevice.Open(channelId)) {
             ERROR_LOG("Failed to open channelId =%d.\n", channelId);
-            return FAILED;
+            return FAILED;                          
         }
     }
     INFO_LOG("camera channel opened successfully\n");

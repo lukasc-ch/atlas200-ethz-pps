@@ -79,10 +79,10 @@ void Utils::GetChannelID(const string &channelName, int &channelID) {
 
     channelID= 0xFF;
     // split file path
-    if("Channel-1" ==channelName)
+    if("Channel-1" == channelName)
         channelID = 1;
 
-    if("Channel-0" ==channelName)
+    if("Channel-0" == channelName)
         channelID = 0;
     return;
 }
